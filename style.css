@@ -1,34 +1,43 @@
 body {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "PT Sans Narrow", sans-serif;
   background-color: #d6efed;
-  TEXT-COL
+  max-width: 50rem;
+  padding: 2rem 0;
+  margin: 0 auto;
 }
 .main-info {
   display: flex;
+  align-items: center;
+  flex-direction: row;
 }
+
 img {
-  margin-top: 30px;
-  width: 15%;
-  height: 15%;
+  width: 30%;
+  height: 35%;
   border: 4px dashed #898aa6;
   border-radius: 50%;
 }
-
-.hobbies {
-  order: 2;
-  align-self: flex-end;
-  font-size: 20px;
-  font-style: normal;
-  padding: 10px;
-  color: #212131;
+p.name {
+  font-size: 30pt;
+  font-weight: bold;
+  margin: 5px;
+  padding: 5px;
+  text-align: center;
+}
+p.hobby {
+  margin: 5px;
+  padding: 0 0 0 15px;
+  font-size: 16pt;
 }
 .summary,
 .skills {
   margin: 5px auto;
-  font-size: 20px;
+  font-size: 16pt;
   font-style: normal;
-  padding: 5px;
+  padding: 0 0 0 5px;
   color: #212131;
+}
+.skills {
 }
 ul.art-exp,
 .tech-exp,
@@ -44,13 +53,12 @@ h3 {
   list-style: none;
   margin: 5px 0 5px 10px;
   font-weight: 600;
-  
 }
 .experiens {
   margin: 5px auto;
-  font-size: 20px;
+  font-size: 16pt;
   font-style: normal;
-  padding: 5px;
+  padding: 0 0 0 5px;
   color: #212131;
 }
 .art-exp-item,
@@ -68,5 +76,10 @@ hr {
   border-top: 2px dashed #898aa6;
 }
 .exp-nobullet {
-color: #383852;
+  color: #383852;
+}
+.contact-info {
+  font-size: 16pt;
+  padding: 10px auto;
+  margin: 10px;
 }
